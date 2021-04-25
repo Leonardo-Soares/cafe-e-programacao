@@ -1,10 +1,3 @@
-/**
-* Template Name: Resi - v2.2.1
-* Template URL: https://bootstrapmade.com/resi-free-bootstrap-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -355,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   margin: 0;
   font-size: 48px;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 56px;
   color: #434175;
   font-family: "Poppins", sans-serif;
@@ -552,7 +545,7 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us {
-  padding-top: 0;
+  padding: 105px 105px;
 }
 
 .why-us .box {
@@ -570,15 +563,17 @@ section {
 
 .why-us .box h4 {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: bold;
+  text-transform: uppercase;
   padding: 0;
   margin: 20px 0;
   color: #434175;
 }
 
 .why-us .box p {
-  color: #aaaaaa;
+  color: black;
   font-size: 15px;
+  text-align: justify;
   margin: 0;
   padding: 0;
 }
@@ -784,6 +779,9 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio{
+  margin-top: 100px;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1377,7 +1375,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 .portfolio-details .portfolio-details-container {
